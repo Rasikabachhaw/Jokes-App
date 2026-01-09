@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <header>
-        <h1>😂 JokesApp</h1>
+        <h1>JokesApp</h1>
         <p class="tagline">Your daily dose of laughter</p>
       </header>
 
@@ -27,7 +27,7 @@
       <div class="joke-container">
         <div class="joke-type-badge" id="jokeType">General</div>
         <div class="joke-content">
-          <p class="setup" id="setup">Click the button below to get a hilarious joke!</p>
+          <p class="setup" id="setup">Click the button to get a hilarious joke!</p>
           <div class="punchline-container">
             <p class="punchline" id="punchline"></p>
           </div>
@@ -35,7 +35,7 @@
         
         <div class="joke-actions">
           <button class="btn btn-favorite" id="favoriteBtn" onclick="toggleFavorite()">
-            <span class="heart-icon">♡</span> Favorite
+            <span class="heart-icon">♡</span> Favorites
           </button>
           <button class="btn btn-share" onclick="shareJoke()">
             📤 Share
@@ -48,7 +48,7 @@
 
       <div class="controls">
         <button class="btn btn-primary" onclick="getJokes()">
-          🎲 Get New Joke
+          🎲 Get a New Joke
         </button>
         <button class="btn btn-secondary" onclick="showPunchline()">
           👀 Reveal Punchline
@@ -70,10 +70,6 @@
         <div class="favorites-list" id="favoritesList"></div>
       </div>
     </div>
-
-    <footer>
-      <p>Made with ❤️ by JokesApp | Powered by Official Joke API</p>
-    </footer>
 
     <script src="script.js"></script>
   </body>
